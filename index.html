@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Escape Tsunami For Platypus - Wiki</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="canvas-container"></div>
+<div class="noise"></div>
+
+<nav>
+  <a href="#about">O grze</a>
+  <a href="#platypuses">Dziobaki</a>
+  <a href="#tsunami">Tsunami</a>
+  <a href="#npc">NPC</a>
+  <a href="#eggs">Easter Egg</a>
+  <a href="#weapons">Bronie</a>
+</nav>
+
+<div class="content">
+
+<section class="hero" id="about">
+  <h1>Escape Tsunami<br>For <span>Platypus</span></h1>
+  <p>Wskocz do świata dziobaków! Zbieraj, handluj i uciekaj przed falami w tej świetnej grze o dziobakach na robloxie.</p>
+  <div class="hero-actions">
+    <a href="#platypuses" class="btn btn-primary">Zobacz dziobaki</a>
+    <a href="#tsunami" class="btn btn-ghost">Poznaj tsunami</a>
+  </div>
+  <div class="scroll-indicator">
+    Scroll
+    <div class="scroll-dot"></div>
+  </div>
+</section>
+
+<section id="platypuses">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Kolekcja</div>
+      <h2>Dziobaki</h2>
+      <p>Każdy dziobak ma swoją rzadkość i może posiadać mutację. Zbierz je wszystkie!</p>
+    </div>
+
+    <div class="rarity-block rarity-common reveal">
+      <div class="rarity-header">
+        <div class="rarity-dot"></div>
+        <span class="rarity-name">Common</span>
+        <span class="rarity-count">4 dziobaki</span>
+      </div>
+      <div class="plat-grid">
+        <div class="plat-card"><div class="plat-name">Agentino Platypazzo</div><div class="mutation-tag baby">Baby</div></div>
+        <div class="plat-card"><div class="plat-name">Azulo Platypusito</div><div class="plat-mutations"></div></div>
+        <div class="plat-card"><div class="plat-name">Originale Platypazzo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Bluino Platypazzo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+      </div>
+    </div>
+
+    <div class="rarity-block rarity-rare reveal">
+      <div class="rarity-header">
+        <div class="rarity-dot"></div>
+        <span class="rarity-name">Rare</span>
+        <span class="rarity-count">4 dziobaki</span>
+      </div>
+      <div class="plat-grid">
+        <div class="plat-card"><div class="plat-name">Yellow Dziobakino</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Chocoplatyino</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Slimeutkoini</div></div>
+        <div class="plat-card"><div class="plat-name">Slimeo Platypullo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+      </div>
+    </div>
+
+    <div class="rarity-block rarity-epic reveal">
+      <div class="rarity-header">
+        <div class="rarity-dot"></div>
+        <span class="rarity-name">Epic</span>
+        <span class="rarity-count">4 dziobaki</span>
+      </div>
+      <div class="plat-grid">
+        <div class="plat-card"><div class="plat-name">Shadowello Platypullo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Diablo Ornitorrinco</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Villaino Platypullo</div></div>
+        <div class="plat-card"><div class="plat-name">Darkdziobazzo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+      </div>
+    </div>
+
+    <div class="rarity-block rarity-legendary reveal">
+      <div class="rarity-header">
+        <div class="rarity-dot"></div>
+        <span class="rarity-name">Legendary</span>
+        <span class="rarity-count">4 dziobaki</span>
+      </div>
+      <div class="plat-grid">
+        <div class="plat-card"><div class="plat-name">Fluffdziobello</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Pinkplatyino</div></div>
+        <div class="plat-card"><div class="plat-name">Claudino Platypullo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">BOO'dziobarello</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+      </div>
+    </div>
+
+    <div class="rarity-block rarity-christmas reveal">
+      <div class="rarity-header">
+        <div class="rarity-dot"></div>
+        <span class="rarity-name">Christmas Common</span>
+        <span class="rarity-count">3 dziobaki</span>
+      </div>
+      <div class="plat-grid">
+        <div class="plat-card"><div class="plat-name">Snowello Platypullo</div></div>
+        <div class="plat-card"><div class="plat-name">Frostino Platypazzo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Frostplatypello</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+      </div>
+    </div>
+
+    <div class="rarity-block rarity-christmas reveal">
+      <div class="rarity-header">
+        <div class="rarity-dot"></div>
+        <span class="rarity-name">Christmas Epic</span>
+        <span class="rarity-count">3 dziobaki</span>
+      </div>
+      <div class="plat-grid">
+        <div class="plat-card"><div class="plat-name">Rudolpho Platypazzo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Clausplatyino</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Toymaker Platypullo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+      </div>
+    </div>
+
+    <div class="rarity-block rarity-halloween reveal">
+      <div class="rarity-header">
+        <div class="rarity-dot"></div>
+        <span class="rarity-name">Halloween Common</span>
+        <span class="rarity-count">3 dziobaki</span>
+      </div>
+      <div class="plat-grid">
+        <div class="plat-card"><div class="plat-name">Vampiro Platypazzo</div></div>
+        <div class="plat-card"><div class="plat-name">Jacko Platypullo</div></div>
+        <div class="plat-card"><div class="plat-name">Nosfero Platypazzo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+      </div>
+    </div>
+
+    <div class="rarity-block rarity-halloween reveal">
+      <div class="rarity-header">
+        <div class="rarity-dot"></div>
+        <span class="rarity-name">Halloween Epic</span>
+        <span class="rarity-count">3 dziobaki</span>
+      </div>
+      <div class="plat-grid">
+        <div class="plat-card"><div class="plat-name">Pumpkplatyoni</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Zombino Platypazzo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Dracullo Platypullo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+      </div>
+    </div>
+
+    <div class="rarity-block rarity-job reveal">
+      <div class="rarity-header">
+        <div class="rarity-dot"></div>
+        <span class="rarity-name">Job</span>
+        <span class="rarity-count">3 dziobaki</span>
+      </div>
+      <div class="plat-grid">
+        <div class="plat-card"><div class="plat-name">Workplatinio</div></div>
+        <div class="plat-card"><div class="plat-name">Noobetti Platypullo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Polizio Platypazzo</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+      </div>
+    </div>
+
+    <div class="rarity-block rarity-weird reveal">
+      <div class="rarity-header">
+        <div class="rarity-dot"></div>
+        <span class="rarity-name">Weird</span>
+        <span class="rarity-count">2 dziobaki</span>
+      </div>
+      <div class="plat-grid">
+        <div class="plat-card"><div class="plat-name">Alieno Platypulloni</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Dziobakus Primeo</div></div>
+      </div>
+    </div>
+
+    <div class="rarity-block rarity-royale reveal">
+      <div class="rarity-header">
+        <div class="rarity-dot"></div>
+        <span class="rarity-name">Royale</span>
+        <span class="rarity-count">2 dziobaki</span>
+      </div>
+      <div class="plat-grid">
+        <div class="plat-card"><div class="plat-name">King Platypusello</div><div class="plat-mutations"><span class="mutation-tag baby">Baby</span></div></div>
+        <div class="plat-card"><div class="plat-name">Prince Platypusino</div></div>
+      </div>
+    </div>
+
+    <div class="rarity-block rarity-special reveal">
+      <div class="rarity-header">
+        <div class="rarity-dot"></div>
+        <span class="rarity-name">Special</span>
+        <span class="rarity-count">3 dziobaki</span>
+      </div>
+      <div class="plat-grid">
+        <div class="plat-card">
+          <div class="plat-name">Muchomoro Dziobakino</div>
+          <div style="font-size:0.75rem;color:var(--text-tertiary);margin-top:0.25rem;">Za dołączenie do grupy</div>
+        </div>
+        <div class="plat-card">
+          <div class="plat-name">Young Platypus</div>
+          <div style="font-size:0.75rem;color:var(--text-tertiary);margin-top:0.25rem;">Kod: Dziobak</div>
+        </div>
+        <div class="plat-card">
+          <div class="plat-name">Emonito Ornitorrinco</div>
+          <div style="font-size:0.75rem;color:var(--text-tertiary);margin-top:0.25rem;">Koło Fortuny</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal" style="margin-top:3rem;">
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:2rem;">
+        <h3 style="font-size:1.125rem;font-weight:600;margin-bottom:1rem;">Mutacje</h3>
+        <p style="color:var(--text-secondary);font-size:0.875rem;margin-bottom:1rem;">Każdy dziobak (oprócz Special) może posiadać mutację. Im rzadsza mutacja, tym trudniej ją zdobyć!</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.5rem;">
+          <span class="mutation-tag">Normal</span>
+          <span class="mutation-tag golden">Golden</span>
+          <span class="mutation-tag diamond">Diamond</span>
+          <span class="mutation-tag ruby">Ruby</span>
+          <span class="mutation-tag neon">Neon</span>
+          <span class="mutation-tag baby">Baby</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tsunami">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Fale</div>
+      <h2>Tsunami</h2>
+      <p>Różne typy fal, które pojawiają się na mapie — musisz przed nimi uciekać!</p>
+    </div>
+    <div class="reveal">
+      <div style="margin-bottom:2rem;">
+        <h3 style="font-size:0.875rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-secondary);margin-bottom:1rem;">Naturalne</h3>
+        <div class="tsunami-grid">
+          <div class="tsunami-card"><span class="tsunami-icon">🐢</span><div class="tsunami-name">Super Slow</div><span class="tsunami-tag natural">Wolna</span></div>
+          <div class="tsunami-card"><span class="tsunami-icon">🌊</span><div class="tsunami-name">Medium</div><span class="tsunami-tag natural">Średnia</span></div>
+          <div class="tsunami-card"><span class="tsunami-icon">🌊</span><div class="tsunami-name">Big</div><span class="tsunami-tag natural">Duża</span></div>
+          <div class="tsunami-card"><span class="tsunami-icon">☠️</span><div class="tsunami-name">Toxic</div><span class="tsunami-tag natural">Toksyczna</span></div>
+          <div class="tsunami-card"><span class="tsunami-icon">⚡</span><div class="tsunami-name">Fast</div><span class="tsunami-tag natural">Szybka</span></div>
+          <div class="tsunami-card"><span class="tsunami-icon">🌀</span><div class="tsunami-name">Mega</div><span class="tsunami-tag natural">Ogromna</span></div>
+        </div>
+      </div>
+      <div>
+        <h3 style="font-size:0.875rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-secondary);margin-bottom:1rem;">Specjalne (Robux / Admin)</h3>
+        <div class="tsunami-grid">
+          <div class="tsunami-card"><span class="tsunami-icon">🤖</span><div class="tsunami-name">TsunamiHelper</div><span class="tsunami-tag special">Admin</span></div>
+          <div class="tsunami-card"><span class="tsunami-icon">🧛</span><div class="tsunami-name">Vampi</div><span class="tsunami-tag special">Admin</span></div>
+          <div class="tsunami-card"><span class="tsunami-icon">🦊</span><div class="tsunami-name">Felosoko</div><span class="tsunami-tag special">Admin</span></div>
+          <div class="tsunami-card"><span class="tsunami-icon">👑</span><div class="tsunami-name">Admin</div><span class="tsunami-tag special">Najszybsza</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="npc">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Postacie</div>
+      <h2>NPC i Maszyny</h2>
+      <p>Spotkaj postaci i maszyny rozsiane po mapie.</p>
+    </div>
+    <div class="npc-grid reveal">
+      <div class="npc-card">
+        <div class="npc-name">Kubek</div>
+        <div class="npc-role">Kupiec dziobaków</div>
+        <div class="npc-desc">Znajdziesz go przy zielonym standzie na spawnie. Sprzedaj mu swoje dziobaki za in-game currency.</div>
+      </div>
+      <div class="npc-card">
+        <div class="npc-name">Daniel</div>
+        <div class="npc-role">Upgrade Carry</div>
+        <div class="npc-desc">Stoi przy żółtym standzie na spawnie. Zwiększa twój carry system.</div>
+      </div>
+      <div class="npc-card">
+        <div class="npc-name">Sprzedawczyni speeda</div>
+        <div class="npc-role">Ulepszenia prędkości</div>
+        <div class="npc-desc">Przy niebieskim standzie na spawnie. Sprzedaje speeda.</div>
+      </div>
+      <div class="npc-card">
+        <div class="npc-name">Muchomorek</div>
+        <div class="npc-role">Ambasador grupy</div>
+        <div class="npc-desc">Emotkuje przy reklamie dołączenia do grupy na spawnie.</div>
+      </div>
+    </div>
+    <div class="reveal" style="margin-top:3rem;">
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:2rem;">
+        <h3 style="font-size:1.125rem;font-weight:600;margin-bottom:1rem;">Maszyny na mapie</h3>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:0.75rem;">
+          <div style="background:rgba(255,255,255,0.02);border-radius:var(--radius-sm);padding:1.25rem;">
+            <div style="font-weight:600;margin-bottom:0.25rem;">Leaderboardy</div>
+            <div style="font-size:0.8125rem;color:var(--text-secondary);">Top 60 money · Top 60 rebirthów · Top 60 speeda</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.02);border-radius:var(--radius-sm);padding:1.25rem;">
+            <div style="font-weight:600;margin-bottom:0.25rem;">Koło Fortuny</div>
+            <div style="font-size:0.8125rem;color:var(--text-secondary);">Nagrody: +speed, +money, dziobak Emonito Ornitorrinco</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.02);border-radius:var(--radius-sm);padding:1.25rem;">
+            <div style="font-weight:600;margin-bottom:0.25rem;">Radar tsunami</div>
+            <div style="font-size:0.8125rem;color:var(--text-secondary);">Kupno tsunami za robuxy. Duży radar ze sklepem.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="eggs">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Sekrety</div>
+      <h2>Easter Egg</h2>
+      <p>Ukryte niespodzianki na mapze.</p>
+    </div>
+    <div class="egg-grid reveal">
+      <div class="egg-card">
+        <h4>☁️ Cloudy Victoria</h4>
+        <p>Miauczy po kliknięciu. Znajdziesz ją za sklepem na spawnie.</p>
+      </div>
+      <div class="egg-card">
+        <h4>🧛 Vampi (Vampilinka)</h4>
+        <p>Tańczy Low Cortisol Dance. Ukryta w jednym z VIP miejsc.</p>
+      </div>
+      <div class="egg-card">
+        <h4>💬 Komenda "uwu"</h4>
+        <p>Napisz <code style="background:rgba(255,255,255,0.06);padding:0.125rem 0.375rem;border-radius:4px;font-family:var(--mono);font-size:0.8125rem;">uwu</code> na chacie (dowolna wielkość liter), a Cloudy Victoria powie "uwu"!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="weapons">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Equipment</div>
+      <h2>Bronie</h2>
+      <p>Broń dostępna w grze.</p>
+    </div>
+    <div class="weapon-section reveal">
+      <div class="weapon-card">
+        <div class="weapon-icon">🏏</div>
+        <div class="weapon-info">
+          <h3>Bat</h3>
+          <p>Uderzenie gracza powoduje, że pada on na podłogę. Jeśli trzymał dziobaki w carrysystemie, upuszcza je wszystkie w formie orbs, które można podnieść.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Escape Tsunami For Platypus · Fanmade Roblox Game</p>
+  <p style="margin-top:0.5rem;">Stworzone z ♥ dla społeczności dziobaków</p>
+</footer>
+
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"
+  }
+}
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+
+const container = document.getElementById('canvas-container');
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(45, container.clientWidth / container.clientHeight, 0.1, 1000);
+camera.position.set(0, 2, 8);
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+renderer.setSize(container.clientWidth, container.clientHeight);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.setClearColor(0x050505, 0);
+container.appendChild(renderer.domElement);
+
+const ambientLight = new THREE.AmbientLight(0x222244, 0.5);
+scene.add(ambientLight);
+
+const dirLight = new THREE.DirectionalLight(0x4ade80, 1.2);
+dirLight.position.set(5, 8, 5);
+scene.add(dirLight);
+
+const fillLight = new THREE.DirectionalLight(0x4466ff, 0.3);
+fillLight.position.set(-3, 2, -5);
+scene.add(fillLight);
+
+const pointLight = new THREE.PointLight(0x4ade80, 0.6, 15);
+pointLight.position.set(0, 1, 3);
+scene.add(pointLight);
+
+const waveGroup = new THREE.Group();
+scene.add(waveGroup);
+
+function createWaveLayer(offsetY, color, zPos, scaleX) {
+  const geo = new THREE.PlaneGeometry(12, 0.6, 40, 8);
+  const mat = new THREE.MeshPhysicalMaterial({
+    color: color,
+    transparent: true,
+    opacity: 0.15,
+    roughness: 0.2,
+    metalness: 0.1,
+    wireframe: false,
+    side: THREE.DoubleSide,
+  });
+  const mesh = new THREE.Mesh(geo, mat);
+  mesh.rotation.x = -0.3;
+  mesh.position.set(0, offsetY, zPos);
+  mesh.scale.x = scaleX;
+  mesh.userData = { offset: Math.random() * Math.PI * 2 };
+  return mesh;
+}
+
+const waveColors = [0x4ade80, 0x22d3ee, 0x3b82f6, 0x8b5cf6];
+const waves = [];
+waveColors.forEach((color, i) => {
+  const w = createWaveLayer(-0.5 + i * 0.12, color, -2 + i * 0.6, 1 + i * 0.15);
+  waveGroup.add(w);
+  waves.push(w);
+});
+
+const gltfGroup = new THREE.Group();
+scene.add(gltfGroup);
+
+function createPlatypus(x, y, z, color) {
+  const g = new THREE.Group();
+
+  const bodyGeo = new THREE.SphereGeometry(0.32, 12, 10);
+  const bodyMat = new THREE.MeshPhysicalMaterial({
+    color: color,
+    roughness: 0.3,
+    metalness: 0.05,
+    clearcoat: 0.2,
+  });
+  const body = new THREE.Mesh(bodyGeo, bodyMat);
+  body.scale.set(1.3, 0.9, 0.8);
+  body.position.y = 0;
+  g.add(body);
+
+  const headGeo = new THREE.SphereGeometry(0.22, 10, 10);
+  const head = new THREE.Mesh(headGeo, bodyMat);
+  head.position.set(0.35, 0.25, 0);
+  g.add(head);
+
+  const billGeo = new THREE.CylinderGeometry(0.02, 0.06, 0.15, 6);
+  const billMat = new THREE.MeshPhysicalMaterial({ color: 0xf5a623, roughness: 0.6 });
+  const bill = new THREE.Mesh(billGeo, billMat);
+  bill.rotation.z = -0.3;
+  bill.position.set(0.5, 0.2, 0);
+  g.add(bill);
+
+  const eyeGeo = new THREE.SphereGeometry(0.05, 8, 8);
+  const eyeMat = new THREE.MeshPhysicalMaterial({ color: 0x111111 });
+  const eye = new THREE.Mesh(eyeGeo, eyeMat);
+  eye.position.set(0.42, 0.35, 0.12);
+  g.add(eye);
+  const eye2 = eye.clone();
+  eye2.position.set(0.42, 0.35, -0.12);
+  g.add(eye2);
+
+  const eyeWhiteGeo = new THREE.SphereGeometry(0.025, 6, 6);
+  const eyeWhiteMat = new THREE.MeshPhysicalMaterial({ color: 0xffffff });
+  const ew = new THREE.Mesh(eyeWhiteGeo, eyeWhiteMat);
+  ew.position.set(0.45, 0.36, 0.12);
+  g.add(ew);
+  const ew2 = ew.clone();
+  ew2.position.set(0.45, 0.36, -0.12);
+  g.add(ew2);
+
+  g.position.set(x, y, z);
+  g.userData = { baseY: y, phase: Math.random() * Math.PI * 2, rotSpeed: 0.3 + Math.random() * 0.3 };
+  return g;
+}
+
+const platypusColors = [0x4ade80, 0x60a5fa, 0xa855f7, 0xf59e0b, 0x22d3ee, 0xf97316, 0x34d399];
+const platypodes = [];
+for (let i = 0; i < 12; i++) {
+  const angle = (i / 12) * Math.PI * 2;
+  const radius = 2.2 + Math.random() * 1.2;
+  const x = Math.cos(angle) * radius;
+  const z = Math.sin(angle) * radius - 1;
+  const y = -0.2 + Math.random() * 0.3;
+  const color = platypusColors[i % platypusColors.length];
+  const p = createPlatypus(x, y, z, color);
+  gltfGroup.add(p);
+  platypodes.push(p);
+}
+
+function createParticles() {
+  const count = 300;
+  const positions = new Float32Array(count * 3);
+  const sizes = new Float32Array(count);
+  for (let i = 0; i < count; i++) {
+    positions[i * 3] = (Math.random() - 0.5) * 20;
+    positions[i * 3 + 1] = Math.random() * 8 - 1;
+    positions[i * 3 + 2] = (Math.random() - 0.5) * 12 - 2;
+    sizes[i] = Math.random() * 3 + 1;
+  }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+  geo.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+  const mat = new THREE.PointsMaterial({
+    color: 0x4ade80,
+    size: 0.02,
+    transparent: true,
+    opacity: 0.4,
+    blending: THREE.AdditiveBlending,
+  });
+  const points = new THREE.Points(geo, mat);
+  return points;
+}
+
+const particles = createParticles();
+scene.add(particles);
+
+let mouseX = 0, mouseY = 0;
+document.addEventListener('mousemove', (e) => {
+  mouseX = (e.clientX / window.innerWidth) * 2 - 1;
+  mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
+});
+
+function animate() {
+  requestAnimationFrame(animate);
+  const time = Date.now() * 0.001;
+
+  gltfGroup.rotation.y = Math.sin(time * 0.04) * 0.3;
+  gltfGroup.position.y = Math.sin(time * 0.15) * 0.1;
+
+  platypodes.forEach((p, i) => {
+    p.position.y = p.userData.baseY + Math.sin(time * 0.6 + p.userData.phase) * 0.08;
+    p.rotation.y = Math.sin(time * 0.3 + p.userData.phase) * 0.2;
+    p.rotation.z = Math.sin(time * 0.5 + p.userData.phase) * 0.03;
+  });
+
+  waves.forEach((w, i) => {
+    const pos = w.geometry.attributes.position;
+    const array = pos.array;
+    for (let j = 0; j < array.length; j += 3) {
+      const x = array[j];
+      array[j + 1] = Math.sin(x * 1.5 + time * (0.3 + i * 0.08) + w.userData.offset) * 0.08
+        + Math.sin(x * 3 + time * 0.4) * 0.04;
+    }
+    pos.needsUpdate = true;
+    w.material.opacity = 0.08 + Math.sin(time * 0.2 + i) * 0.04;
+  });
+
+  const pPos = particles.geometry.attributes.position.array;
+  for (let i = 0; i < pPos.length; i += 3) {
+    pPos[i + 1] += Math.sin(time * 0.1 + pPos[i] * 0.5) * 0.001;
+    pPos[i] += Math.sin(time * 0.05 + i) * 0.0005;
+  }
+  particles.geometry.attributes.position.needsUpdate = true;
+
+  camera.position.x += (mouseX * 0.5 - camera.position.x) * 0.02;
+  camera.position.y += (mouseY * 0.3 + 2 - camera.position.y) * 0.02;
+  camera.lookAt(0, 0.5, -1);
+
+  renderer.render(scene, camera);
+}
+
+animate();
+
+window.addEventListener('resize', () => {
+  const w = container.clientWidth;
+  const h = container.clientHeight;
+  camera.aspect = w / h;
+  camera.updateProjectionMatrix();
+  renderer.setSize(w, h);
+});
+</script>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
